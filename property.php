@@ -190,7 +190,7 @@ while ( $row = $select->fetch( PDO::FETCH_ASSOC ) ) {
 					</p>
 					<!--				<h3>参考画像</h3>--> 
 					<!--					<div style="" class="img-contain img-contain-480"> -->
-					<div style="display: flex" id="imgmap"> <img src="images/iniad.jpg" style="" class="img-contain img-contain-480"> <br>
+					<div style="display: flex" id="imgmap"> <img src="images/iniad.jpg" class="img-contain img-contain-480"> <br>
 						<!--				<h3>アクセス</h3>-->
 						
 						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3236.799789567791!2d139.71335761526143!3d35.7802940801713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018931934050759%3A0x239ff01917c6ae5a!2z5p2x5rSL5aSn5a2mIOaDheWgsemAo-aQuuWtpumDqCAoSU5JQUQp!5e0!3m2!1sja!2sjp!4v1633841676994!5m2!1sja!2sjp"

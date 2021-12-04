@@ -300,7 +300,7 @@ if ( isset( $_POST[ "search" ] ) ) {
 							&nbsp;
 							<input type="submit" value="送信する" class="input_btn">
 						</div>
-						<div id="sendbtn" class="btn" style=""> </div>
+						<div id="sendbtn" class="btn"> </div>
 						<br>
 					</form>
 					</tbody>
