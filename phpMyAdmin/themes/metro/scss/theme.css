@@ -4,7 +4,7 @@ Error: File to import not found or unreadable: ../../bootstrap/scss/bootstrap.
          /Applications/Adobe Dreamweaver 2021/Configuration/SassFrameworks/bourbon
          /Applications/Adobe Dreamweaver 2021/Configuration/SassFrameworks/neat
          /Applications/Adobe Dreamweaver 2021/Configuration/SassFrameworks/base
-        on line 4 of /Applications/MAMP/htdocs/vacant/phpMyAdmin/themes/metro/scss/theme.scss
+        on line 4 of /Users/keita/Documents/実習III/vacant_heroku/phpMyAdmin/themes/metro/scss/theme.scss
 
 1: @import "font";
 2: @import "../../pmahomme/scss/direction";
@@ -17,7 +17,7 @@ Error: File to import not found or unreadable: ../../bootstrap/scss/bootstrap.
 9: @import "designer";
 
 Backtrace:
-/Applications/MAMP/htdocs/vacant/phpMyAdmin/themes/metro/scss/theme.scss:4
+/Users/keita/Documents/実習III/vacant_heroku/phpMyAdmin/themes/metro/scss/theme.scss:4
 /Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/tree/import_node.rb:67:in `rescue in import'
 /Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/tree/import_node.rb:44:in `import'
 /Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/tree/import_node.rb:28:in `imported_file'
@@ -54,4 +54,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: File to import not found or unreadable: ../../bootstrap/scss/bootstrap.\A        Load paths:\A          /Applications/Adobe Dreamweaver 2021/Configuration/SassFrameworks/bourbon\A          /Applications/Adobe Dreamweaver 2021/Configuration/SassFrameworks/neat\A          /Applications/Adobe Dreamweaver 2021/Configuration/SassFrameworks/base\A         on line 4 of /Applications/MAMP/htdocs/vacant/phpMyAdmin/themes/metro/scss/theme.scss\A \A 1: @import \"font\";\A 2: @import \"../../pmahomme/scss/direction\";\A 3: @import \"variables\";\A 4: @import \"../../bootstrap/scss/bootstrap\";\A 5: @import \"common\";\A 6: @import \"enum-editor\";\A 7: @import \"gis\";\A 8: @import \"navigation\";\A 9: @import \"designer\";"; }
+  content: "Error: File to import not found or unreadable: ../../bootstrap/scss/bootstrap.\A        Load paths:\A          /Applications/Adobe Dreamweaver 2021/Configuration/SassFrameworks/bourbon\A          /Applications/Adobe Dreamweaver 2021/Configuration/SassFrameworks/neat\A          /Applications/Adobe Dreamweaver 2021/Configuration/SassFrameworks/base\A         on line 4 of /Users/keita/Documents/実習III/vacant_heroku/phpMyAdmin/themes/metro/scss/theme.scss\A \A 1: @import \"font\";\A 2: @import \"../../pmahomme/scss/direction\";\A 3: @import \"variables\";\A 4: @import \"../../bootstrap/scss/bootstrap\";\A 5: @import \"common\";\A 6: @import \"enum-editor\";\A 7: @import \"gis\";\A 8: @import \"navigation\";\A 9: @import \"designer\";"; }
