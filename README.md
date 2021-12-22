@@ -1,11 +1,12 @@
 # Demosite
 
-実習IIIで作成するデモサイトです。
+実習IIIで作成するデモサイトの共有リポジトリです。
 <br>
 <br>
 
 ## ToDo
 
+やってほしいことだったり、現状の問題点をイシューチケットとして発行するから、各自ググったりして解決できそうだったら取り組んでね。
 
 ***
 
@@ -60,3 +61,4 @@ If you have ideas for releases in the future, it is a good idea to list them in 
 <br>
 
 ## ステータス
+ここにプロジェクトの進行度を書いていくよ。

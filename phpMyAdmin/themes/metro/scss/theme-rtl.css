@@ -1,10 +1,10 @@
 /*
-Error: File to import not found or unreadable: ../../bootstrap/scss/bootstrap.
+Error: File to import not found or unreadable: ../../pmahomme/scss/direction.
        Load paths:
          /Applications/Adobe Dreamweaver 2021/Configuration/SassFrameworks/bourbon
          /Applications/Adobe Dreamweaver 2021/Configuration/SassFrameworks/neat
          /Applications/Adobe Dreamweaver 2021/Configuration/SassFrameworks/base
-        on line 4 of /Users/keita/Documents/実習III/vacant_heroku/phpMyAdmin/themes/metro/scss/theme.scss
+        on line 2 of /Users/keita/Documents/実習III/vacant_heroku/phpMyAdmin/themes/metro/scss/theme.scss
         from line 3 of /Users/keita/Documents/実習III/vacant_heroku/phpMyAdmin/themes/metro/scss/theme-rtl.scss
 
 1: $direction: rtl;
@@ -12,7 +12,7 @@ Error: File to import not found or unreadable: ../../bootstrap/scss/bootstrap.
 3: @import "theme";
 
 Backtrace:
-/Users/keita/Documents/実習III/vacant_heroku/phpMyAdmin/themes/metro/scss/theme.scss:4
+/Users/keita/Documents/実習III/vacant_heroku/phpMyAdmin/themes/metro/scss/theme.scss:2
 /Users/keita/Documents/実習III/vacant_heroku/phpMyAdmin/themes/metro/scss/theme-rtl.scss:3
 /Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/tree/import_node.rb:67:in `rescue in import'
 /Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/tree/import_node.rb:44:in `import'
@@ -63,4 +63,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: File to import not found or unreadable: ../../bootstrap/scss/bootstrap.\A        Load paths:\A          /Applications/Adobe Dreamweaver 2021/Configuration/SassFrameworks/bourbon\A          /Applications/Adobe Dreamweaver 2021/Configuration/SassFrameworks/neat\A          /Applications/Adobe Dreamweaver 2021/Configuration/SassFrameworks/base\A         on line 4 of /Users/keita/Documents/実習III/vacant_heroku/phpMyAdmin/themes/metro/scss/theme.scss\A         from line 3 of /Users/keita/Documents/実習III/vacant_heroku/phpMyAdmin/themes/metro/scss/theme-rtl.scss\A \A 1: $direction: rtl;\A 2: \A 3: @import \"theme\";"; }
+  content: "Error: File to import not found or unreadable: ../../pmahomme/scss/direction.\A        Load paths:\A          /Applications/Adobe Dreamweaver 2021/Configuration/SassFrameworks/bourbon\A          /Applications/Adobe Dreamweaver 2021/Configuration/SassFrameworks/neat\A          /Applications/Adobe Dreamweaver 2021/Configuration/SassFrameworks/base\A         on line 2 of /Users/keita/Documents/実習III/vacant_heroku/phpMyAdmin/themes/metro/scss/theme.scss\A         from line 3 of /Users/keita/Documents/実習III/vacant_heroku/phpMyAdmin/themes/metro/scss/theme-rtl.scss\A \A 1: $direction: rtl;\A 2: \A 3: @import \"theme\";"; }

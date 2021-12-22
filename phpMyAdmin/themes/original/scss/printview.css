@@ -1,109 +1,49 @@
-@media print {
-  #back_button_print_view,
-  #print_button_print_view {
-    display: none; } }
-.print_ignore {
-  display: none; }
+/*
+Error: File to import not found or unreadable: ../../pmahomme/scss/printview.
+       Load paths:
+         /Applications/Adobe Dreamweaver 2021/Configuration/SassFrameworks/bourbon
+         /Applications/Adobe Dreamweaver 2021/Configuration/SassFrameworks/neat
+         /Applications/Adobe Dreamweaver 2021/Configuration/SassFrameworks/base
+        on line 1 of /Users/keita/Documents/実習III/vacant_heroku/phpMyAdmin/themes/original/scss/printview.scss
 
-.nowrap {
-  white-space: nowrap; }
+1: @import "../../pmahomme/scss/printview";
 
-.hide {
-  display: none; }
-
-body,
-table,
-th,
-td {
-  color: #000;
-  background-color: #fff;
-  font-size: 12px; }
-
-a:link {
-  color: #000;
-  text-decoration: none; }
-
-img {
-  border: 0; }
-
-table,
-th,
-td {
-  border: 0.1em solid #000;
-  background-color: #fff; }
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0.2em; }
-
-thead {
-  border-collapse: collapse;
-  border-spacing: 0.2em;
-  border: 0.1em solid #000;
-  font-weight: 900; }
-
-th,
-td {
-  padding: 0.2em; }
-
-thead th {
-  font-weight: bold;
-  background-color: #e5e5e5;
-  border: 0.1em solid #000; }
-
-th.vtop,
-td.vtop {
-  vertical-align: top; }
-
-th.vbottom,
-td.vbottom {
-  vertical-align: bottom; }
-
-#pma_navigation,
-#floating_menubar,
-#pma_console_container,
-#page_nav_icons,
-#create_table_form_minimal,
-#page_settings_modal,
-#pma_footer,
-#pma_demo,
-#pma_errors,
-#selflink {
-  display: none; }
-
-#page_content {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 95%;
-  float: none; }
-
-.print {
-  background-color: #000; }
-
-.sqlOuter {
-  color: black;
-  background-color: #000; }
-
-.ic_window-new,
-.ic_s_cog,
-#structure-action-links,
-#addColumns,
-.cDrop,
-.cEdit,
-.cList,
-.cCpy,
-.cPointer {
-  display: none; }
-
-table tbody:first-of-type tr:nth-child(odd) {
-  background: #fff; }
-  table tbody:first-of-type tr:nth-child(odd) th {
-    background: #fff; }
-table tbody:first-of-type tr:nth-child(even) {
-  background: #dfdfdf; }
-  table tbody:first-of-type tr:nth-child(even) th {
-    background: #dfdfdf; }
-
-.column_attribute {
-  font-size: 100%; }
+Backtrace:
+/Users/keita/Documents/実習III/vacant_heroku/phpMyAdmin/themes/original/scss/printview.scss:1
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/tree/import_node.rb:67:in `rescue in import'
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/tree/import_node.rb:44:in `import'
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/tree/import_node.rb:28:in `imported_file'
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/tree/import_node.rb:37:in `css_import?'
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:310:in `visit_import'
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/stack.rb:79:in `block in with_base'
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/stack.rb:79:in `with_base'
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `map'
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:157:in `visit'
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:10:in `visit'
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/tree/root_node.rb:20:in `render'
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/engine.rb:290:in `render'
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/exec/sass_scss.rb:396:in `run'
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/exec/sass_scss.rb:63:in `process_result'
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/exec/base.rb:50:in `parse'
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/exec/base.rb:18:in `parse!'
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/bin/sass:13:in `<top (required)>'
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/bin/sass:34:in `load'
+/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app/Contents/Resources/gems/bin/sass:34:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: File to import not found or unreadable: ../../pmahomme/scss/printview.\A        Load paths:\A          /Applications/Adobe Dreamweaver 2021/Configuration/SassFrameworks/bourbon\A          /Applications/Adobe Dreamweaver 2021/Configuration/SassFrameworks/neat\A          /Applications/Adobe Dreamweaver 2021/Configuration/SassFrameworks/base\A         on line 1 of /Users/keita/Documents/実習III/vacant_heroku/phpMyAdmin/themes/original/scss/printview.scss\A \A 1: @import \"../../pmahomme/scss/printview\";"; }
